@@ -1,20 +1,10 @@
 /* Estilos globales */
 /* Establecer una imagen de fondo para el cuerpo */
 body {
-
-    background-color: #35caef;
+    background-image: url(imagenes/fondo.png);
     background-repeat: no-repeat;
     background-size: cover; /* Ajuste para mostrar la imagen en pantalla completa */
-    animation: cambioImagen 20s infinite;
-    transition: background-image 5s ease-in-out;
-  }
-  
-  @keyframes cambioImagen {
-    0% {background-image: url(imagenes/fondo.png);}
-    33% {background-image: url(imagenes/fondo2.jpg);}
-    67% {background-image: url(imagenes/fondo3.jpg);}
-    100% {background-image: url(imagenes/fondo.png);}
-  }
+}
  /*  Estilos textos */
 body {
     font-family: monospace;
